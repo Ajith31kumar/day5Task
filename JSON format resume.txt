@@ -1,0 +1,41 @@
+{
+  "name": "Ajith Kumar",
+  "email": "ajimccullum06952@gmail.com",
+  "phone": "9843034309",
+  "address": "Chennai, India",
+  "summary": "I am a full stack developer.I am studing at guvi institute",
+  "education": [
+    {
+      "degree": "B.A english lierature",
+      "school": "M.A.K govt.hr.sec.school.karaiyur",
+      "graduation_year": 2020,
+      "location": "Chennai, India"
+    }
+  ],
+  "work_experience": [
+    {
+      "experince" : "No experiance",
+      "responsibilities": [
+        "Assisted in the development of web applications using React and Node.js.",
+        "Collaborated with the development team to meet project deadlines.",
+        "Participated in code reviews and troubleshooting efforts."
+      ]
+    }
+  ],
+  "skills": {
+    "programming_languages": [ "C","c++",JavaScript", "Python"],
+    "web_technologies": ["HTML/CSS", "React", "Node.js"],
+    "databases": ["SQL", "MongoDB"],
+    "version_control": "Git",
+  },
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "Fluent"
+    },
+    {
+      "language": "Tamil",
+      "proficiency": "Native"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+window Object:
+
+1) The window object represents the browser window or tab containing a web page. It's the top-level object in the browser's Document Object Model (DOM) hierarchy.
+2) It provides access to various properties and methods related to the browser window, such as resizing the window, opening new windows, navigating to different URLs,        
+      and handling events like load and unload.
+3) The window object also serves as the global object in the browser environment, which means you can access global variables and functions from it without explicitly 
+      referencing window.
+
+Example:
+
+// Accessing the global 'window' object
+console.log(window.innerWidth); // Get the inner width of the window
+
+screen Object:
+
+1) The screen object represents the user's screen or monitor. It provides information about the user's display properties.
+2) Properties like screen.width and screen.height give you the screen's resolution in pixels.
+2) It can be useful for building responsive web applications or determining how content should be displayed based on the user's screen size.
+
+Example:
+
+// Accessing the 'screen' object
+console.log(screen.width); // Get the screen width in pixels
+
+document Object:
+
+1) The document object represents the current HTML document loaded in the browser. It's part of the DOM hierarchy.
+2) It allows you to access and manipulate the content of the web page, such as adding or changing elements, modifying text, handling events, and more.
+3) he document object provides access to all the HTML elements on the page, allowing you to interact with them through JavaScript.
+4)It's often used for DOM manipulation, event handling, and accessing the content of web pages.
+
+Example:
+
+// Accessing the 'document' object
+const heading = document.querySelector('h1'); // Select an HTML element
+heading.textContent = 'New Heading'; // Change its content
+
+In summary, window deals with the browser window and provides browser-related functionality, screen deals with the user's screen properties, and document represents and allows you to manipulate the HTML content of the current web page. These objects serve different purposes but are crucial for web development when building interactive and responsive web applications.
